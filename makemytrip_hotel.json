@@ -1,0 +1,84 @@
+{
+    "hotel_name": "Goverdhan Greens",
+    "rating": null,
+    "rooms_available": 5,
+    "room_options": [
+        {
+            "main_room_name": "Super Delux Balcony Room",
+            "room_type": "Super Delux Balcony Room - Room With Free Cancellation | Breakfast only",
+            "price_per_night": 4576,
+            "taxes_and_fees": 1042,
+            "total_price": 5618,
+            "extras": "Free Cancellation",
+            "amenities": [
+                "Free Breakfast"
+            ]
+        },
+        {
+            "main_room_name": "Super Delux Balcony Room",
+            "room_type": "Super Delux Balcony Room - Room With Free Cancellation",
+            "price_per_night": 3821,
+            "taxes_and_fees": 871,
+            "total_price": 4692,
+            "extras": "Free Cancellation",
+            "amenities": [
+                "No meals included"
+            ]
+        },
+        {
+            "main_room_name": "Super Deluxe Rooms",
+            "room_type": "Super Deluxe Rooms - Room With Free Cancellation | Breakfast only",
+            "price_per_night": 4249,
+            "taxes_and_fees": 968,
+            "total_price": 5217,
+            "extras": "Free Cancellation",
+            "amenities": [
+                "Free Breakfast"
+            ]
+        },
+        {
+            "main_room_name": "Super Deluxe Rooms",
+            "room_type": "Super Deluxe Rooms - Room With Free Cancellation",
+            "price_per_night": 3821,
+            "taxes_and_fees": 871,
+            "total_price": 4692,
+            "extras": "Free Cancellation",
+            "amenities": [
+                "No meals included"
+            ]
+        },
+        {
+            "main_room_name": "Superior Rooms",
+            "room_type": "Superior Rooms - Room With Free Cancellation | Breakfast only",
+            "price_per_night": 4249,
+            "taxes_and_fees": 968,
+            "total_price": 5217,
+            "extras": "Free Cancellation",
+            "amenities": [
+                "Free Breakfast"
+            ]
+        },
+        {
+            "main_room_name": "Superior Rooms",
+            "room_type": "Superior Rooms - Room With Free Cancellation",
+            "price_per_night": 4148,
+            "taxes_and_fees": 944,
+            "total_price": 5092,
+            "extras": "Free Cancellation",
+            "amenities": [
+                "No meals included"
+            ]
+        },
+        {
+            "main_room_name": "Superior Rooms",
+            "room_type": "Superior Rooms - Room With Free Cancellation | Breakfast only",
+            "price_per_night": 4576,
+            "taxes_and_fees": 1042,
+            "total_price": 5618,
+            "extras": "Free Cancellation",
+            "amenities": [
+                "Free Breakfast"
+            ]
+        }
+    ]
+}

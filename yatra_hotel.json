@@ -1,0 +1,440 @@
+{
+    "hotel_name": "Goverdhan Greens Resort",
+    "rating": 4.0,
+    "rooms_available": 24,
+    "room_options": [
+        {
+            "room_type": "Super Deluxe With Balcony Room Only - Double",
+            "plan": "Room Only",
+            "price_per_night": 3660,
+            "taxes_and_fees": 752,
+            "total_price": 4412,
+            "extras": null,
+            "amenities": [
+                "Hotel Charges",
+                "\u20b95,370",
+                "(-) Hotel Offer",
+                "\u20b9537",
+                "(-) Yatra Promo Offer",
+                "\u20b91,173",
+                "Total Amount ",
+                "\u20b93,660",
+                "Hotel Charges",
+                "\u20b95,370",
+                "(-) Hotel Offer",
+                "\u20b9537",
+                "(-) Yatra Promo Offer",
+                "\u20b91,173",
+                "Total Amount ",
+                "\u20b93,660"
+            ]
+        },
+        {
+            "room_type": "Modify your Search",
+            "plan": "Room Only",
+            "price_per_night": 0,
+            "taxes_and_fees": 0,
+            "total_price": 0,
+            "extras": null,
+            "amenities": []
+        },
+        {
+            "room_type": "Overview",
+            "plan": "Room Only",
+            "price_per_night": 0,
+            "taxes_and_fees": 0,
+            "total_price": 0,
+            "extras": null,
+            "amenities": []
+        },
+        {
+            "room_type": "Super Deluxe Balcony - Double Occupancy",
+            "plan": "Room Only",
+            "price_per_night": 0,
+            "taxes_and_fees": 0,
+            "total_price": 0,
+            "extras": null,
+            "amenities": [
+                "Double Bed",
+                "Tile",
+                "221 sq.ft",
+                "Telephone",
+                "TV",
+                "Newspaper",
+                "3 Adults",
+                "2 children"
+            ]
+        },
+        {
+            "room_type": "Super Deluxe With Balcony Room Only - Double",
+            "plan": "Room Only",
+            "price_per_night": 3660,
+            "taxes_and_fees": 752,
+            "total_price": 4412,
+            "extras": "Non Refundable",
+            "amenities": [
+                "Tea/Coffee maker in the Room.",
+                "Complimentary Wifi",
+                "Complimentary Mineral Water",
+                "Hotel Charges",
+                "\u20b95,370",
+                "(-) Hotel Offer",
+                "\u20b9537",
+                "(-) Yatra Promo Offer",
+                "\u20b91,173",
+                "Total Amount ",
+                "\u20b93,660"
+            ]
+        },
+        {
+            "room_type": "Super Deluxe Room With Balcony & Breakfast - Double",
+            "plan": "With Breakfast",
+            "price_per_night": 4001,
+            "taxes_and_fees": 822,
+            "total_price": 4823,
+            "extras": "Non Refundable, Free Breakfast",
+            "amenities": [
+                "Breakfast",
+                "Tea/Coffee maker in the Room.",
+                "Complimentary Wifi",
+                "Complimentary Mineral Water",
+                "Hotel Charges",
+                "\u20b95,870",
+                "(-) Hotel Offer",
+                "\u20b9587",
+                "(-) Yatra Promo Offer",
+                "\u20b91,282",
+                "Total Amount ",
+                "\u20b94,001"
+            ]
+        },
+        {
+            "room_type": "Super Deluxe - Double Occupancy",
+            "plan": "Room Only",
+            "price_per_night": 0,
+            "taxes_and_fees": 0,
+            "total_price": 0,
+            "extras": null,
+            "amenities": [
+                "Double Bed",
+                "Tile",
+                "275 sq.ft",
+                "Fan",
+                "Electric kettle",
+                "Towels",
+                "3 Adults",
+                "2 children"
+            ]
+        },
+        {
+            "room_type": "Super Deluxe Double - Room Only",
+            "plan": "Room Only",
+            "price_per_night": 3660,
+            "taxes_and_fees": 752,
+            "total_price": 4412,
+            "extras": "Non Refundable",
+            "amenities": [
+                "Tea/Coffee maker in the Room.",
+                "Complimentary Wifi",
+                "Complimentary Mineral Water",
+                "Hotel Charges",
+                "\u20b95,370",
+                "(-) Hotel Offer",
+                "\u20b9537",
+                "(-) Yatra Promo Offer",
+                "\u20b91,173",
+                "Total Amount ",
+                "\u20b93,660"
+            ]
+        },
+        {
+            "room_type": "Super Deluxe Double - Breakfast",
+            "plan": "With Breakfast",
+            "price_per_night": 4001,
+            "taxes_and_fees": 822,
+            "total_price": 4823,
+            "extras": "Non Refundable, Free Breakfast",
+            "amenities": [
+                "Breakfast",
+                "Tea/Coffee maker in the Room.",
+                "Complimentary Wifi",
+                "Complimentary Mineral Water",
+                "Hotel Charges",
+                "\u20b95,870",
+                "(-) Hotel Offer",
+                "\u20b9587",
+                "(-) Yatra Promo Offer",
+                "\u20b91,282",
+                "Total Amount ",
+                "\u20b94,001"
+            ]
+        },
+        {
+            "room_type": "Deluxe Room With Balcony - Double Occupancy",
+            "plan": "Room Only",
+            "price_per_night": 0,
+            "taxes_and_fees": 0,
+            "total_price": 0,
+            "extras": null,
+            "amenities": [
+                "Double Bed",
+                "Tile",
+                "200 sq.ft",
+                "Fan",
+                "Electric kettle",
+                "Safe",
+                "4 Adults",
+                "2 children"
+            ]
+        },
+        {
+            "room_type": "Deluxe Room Only",
+            "plan": "Room Only",
+            "price_per_night": 3834,
+            "taxes_and_fees": 788,
+            "total_price": 4622,
+            "extras": "Non Refundable",
+            "amenities": [
+                "Complimentary Wifi",
+                "Complimentary Mineral Water",
+                "Hotel Charges",
+                "\u20b95,063",
+                "(-) Yatra Promo Offer",
+                "\u20b91,229",
+                "Total Amount ",
+                "\u20b93,834"
+            ]
+        },
+        {
+            "room_type": "Deluxe Room - Breakfast",
+            "plan": "With Breakfast",
+            "price_per_night": 4213,
+            "taxes_and_fees": 866,
+            "total_price": 5079,
+            "extras": "Non Refundable, Free Breakfast",
+            "amenities": [
+                "Breakfast",
+                "Complimentary Wifi",
+                "Complimentary Mineral Water",
+                "Hotel Charges",
+                "\u20b95,563",
+                "(-) Yatra Promo Offer",
+                "\u20b91,350",
+                "Total Amount ",
+                "\u20b94,213"
+            ]
+        },
+        {
+            "room_type": "Superior Room - Double Occupancy",
+            "plan": "Room Only",
+            "price_per_night": 0,
+            "taxes_and_fees": 0,
+            "total_price": 0,
+            "extras": null,
+            "amenities": [
+                "Double Bed",
+                "Tile",
+                "288 sq.ft",
+                "Pool View",
+                "Telephone",
+                "TV",
+                "Newspaper",
+                "3 Adults",
+                "2 children"
+            ]
+        },
+        {
+            "room_type": "Superior Double - Room Only",
+            "plan": "Room Only",
+            "price_per_night": 3973,
+            "taxes_and_fees": 817,
+            "total_price": 4790,
+            "extras": "Non Refundable",
+            "amenities": [
+                "Tea/Coffee maker in the Room.",
+                "Complimentary Wifi",
+                "Complimentary Mineral Water",
+                "Hotel Charges",
+                "\u20b95,830",
+                "(-) Hotel Offer",
+                "\u20b9584",
+                "(-) Yatra Promo Offer",
+                "\u20b91,273",
+                "Total Amount ",
+                "\u20b93,973"
+            ]
+        },
+        {
+            "room_type": "Superior Double - Breakfast",
+            "plan": "With Breakfast",
+            "price_per_night": 4314,
+            "taxes_and_fees": 887,
+            "total_price": 5201,
+            "extras": "Non Refundable, Free Breakfast",
+            "amenities": [
+                "Breakfast",
+                "Complimentary Wifi",
+                "Complimentary Mineral Water",
+                "Hotel Charges",
+                "\u20b96,330",
+                "(-) Hotel Offer",
+                "\u20b9633",
+                "(-) Yatra Promo Offer",
+                "\u20b91,383",
+                "Total Amount ",
+                "\u20b94,314"
+            ]
+        },
+        {
+            "room_type": "Family Deluxe Room",
+            "plan": "Room Only",
+            "price_per_night": 0,
+            "taxes_and_fees": 0,
+            "total_price": 0,
+            "extras": null,
+            "amenities": [
+                "Double Bed",
+                "Tile",
+                "275 sq.ft",
+                "Fan",
+                "Electric kettle",
+                "Safe",
+                "4 Adults",
+                "2 children"
+            ]
+        },
+        {
+            "room_type": "Family Deluxe Room Only",
+            "plan": "Room Only",
+            "price_per_night": 6167,
+            "taxes_and_fees": 1803,
+            "total_price": 7970,
+            "extras": "Non Refundable",
+            "amenities": [
+                "Tea/Coffee maker in the Room.",
+                "Complimentary Wifi",
+                "Complimentary Mineral Water",
+                "Hotel Charges",
+                "\u20b98,285",
+                "(-) Yatra Promo Offer",
+                "\u20b92,118",
+                "Total Amount ",
+                "\u20b96,167"
+            ]
+        },
+        {
+            "room_type": "Family Deluxe Room With Breakfast",
+            "plan": "With Breakfast",
+            "price_per_night": 6911,
+            "taxes_and_fees": 2020,
+            "total_price": 8931,
+            "extras": "Non Refundable, Free Breakfast",
+            "amenities": [
+                "Breakfast",
+                "Tea/Coffee maker in the Room.",
+                "Complimentary Wifi",
+                "Complimentary Mineral Water",
+                "Hotel Charges",
+                "\u20b99,285",
+                "(-) Yatra Promo Offer",
+                "\u20b92,374",
+                "Total Amount ",
+                "\u20b96,911"
+            ]
+        },
+        {
+            "room_type": "First Floor Villa 2 Bedrooms",
+            "plan": "Room Only",
+            "price_per_night": 0,
+            "taxes_and_fees": 0,
+            "total_price": 0,
+            "extras": null,
+            "amenities": [
+                "6 Adults",
+                "2 children"
+            ]
+        },
+        {
+            "room_type": "First Floor Villa 2 Bedrooms - Without Food",
+            "plan": "Without Food",
+            "price_per_night": 8931,
+            "taxes_and_fees": 2611,
+            "total_price": 11542,
+            "extras": "Non Refundable",
+            "amenities": [
+                "Tea/Coffee maker in the Room.",
+                "Complimentary Wifi",
+                "Complimentary Mineral Water",
+                "Hotel Charges",
+                "\u20b911,999",
+                "(-) Yatra Promo Offer",
+                "\u20b93,068",
+                "Total Amount ",
+                "\u20b98,931"
+            ]
+        },
+        {
+            "room_type": "Ground Floor Villa 2 BHK",
+            "plan": "Room Only",
+            "price_per_night": 0,
+            "taxes_and_fees": 0,
+            "total_price": 0,
+            "extras": null,
+            "amenities": [
+                "Double Bed",
+                "7 Adults",
+                "2 children"
+            ]
+        },
+        {
+            "room_type": "Ground Floor Villa 2 BHK - Without Food",
+            "plan": "Without Food",
+            "price_per_night": 9675,
+            "taxes_and_fees": 2829,
+            "total_price": 12504,
+            "extras": "Non Refundable",
+            "amenities": [
+                "Tea/Coffee maker in the Room.",
+                "Complimentary Wifi",
+                "Complimentary Mineral Water",
+                "Hotel Charges",
+                "\u20b912,999",
+                "(-) Yatra Promo Offer",
+                "\u20b93,324",
+                "Total Amount ",
+                "\u20b99,675"
+            ]
+        },
+        {
+            "room_type": "Full Villa 4 BHK",
+            "plan": "Room Only",
+            "price_per_night": 0,
+            "taxes_and_fees": 0,
+            "total_price": 0,
+            "extras": null,
+            "amenities": [
+                "12 Adults",
+                "2 children"
+            ]
+        },
+        {
+            "room_type": "Full Villa 4 BHK Without Food",
+            "plan": "Without Food",
+            "price_per_night": 24999,
+            "taxes_and_fees": 6745,
+            "total_price": 31744,
+            "extras": "Non Refundable",
+            "amenities": [
+                "Tea/Coffee maker in the Room.",
+                "Complimentary Wifi",
+                "Complimentary Mineral Water",
+                "Hotel Charges",
+                "\u20b930,999",
+                "(-) Yatra Promo Offer",
+                "\u20b96,000",
+                "Total Amount ",
+                "\u20b924,999"
+            ]
+        }
+    ]
+}

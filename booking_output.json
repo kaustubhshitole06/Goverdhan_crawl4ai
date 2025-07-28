@@ -1,0 +1,87 @@
+{
+  "hotel_name": "Goverdhan Greens Resort",
+  "rating": null,
+  "rooms_available": 3,
+  "room_options": [
+    {
+      "room_type": "Two-Bedroom Villa",
+      "max_persons": 5,
+      "price_per_night": 8151,
+      "taxes_and_fees": 1467,
+      "total_price": 9618,
+      "extras": [
+        "Free cancellation",
+        "Pay the property before arrival",
+        "Fully refundable",
+        "No credit card needed"
+      ],
+      "amenities": [
+        "Bedroom 1: 1 single bed  and  1 double bed",
+        "Bedroom 2: 1 double bed",
+        "Breakfast included"
+      ],
+      "meals": {
+        "breakfast": "Breakfast included",
+        "lunch": "Lunch costs ₹ 260",
+        "dinner": "Dinner costs ₹ 450"
+      },
+      "cancellation": "Free cancellation** before 14 September 2025 \n  * Pay the property before arrival \n  * Fully refu",
+      "prepayment": "Pay the property before arrival"
+    },
+    {
+      "room_type": "Villa with Garden View",
+      "max_persons": 7,
+      "price_per_night": 9405,
+      "taxes_and_fees": 1693,
+      "total_price": 11098,
+      "extras": [
+        "Free cancellation",
+        "Pay the property before arrival",
+        "Fully refundable",
+        "No credit card needed"
+      ],
+      "amenities": [
+        "Bedroom 1: 1 single bed  and  1 double bed",
+        "Bedroom 2: 1 single bed  and  1 double bed",
+        "Living room: 1 sofa bed",
+        "Breakfast included"
+      ],
+      "meals": {
+        "breakfast": "Breakfast included",
+        "lunch": "Lunch costs ₹ 260",
+        "dinner": "Dinner costs ₹ 450"
+      },
+      "cancellation": "Free cancellation** before 14 September 2025 \n  * Pay the property before arrival \n  * Fully refu",
+      "prepayment": "Pay the property before arrival"
+    },
+    {
+      "room_type": "Superior Villa",
+      "max_persons": 11,
+      "price_per_night": 13856,
+      "taxes_and_fees": 2494,
+      "total_price": 16350,
+      "extras": [
+        "Free cancellation",
+        "Pay the property before arrival",
+        "Fully refundable",
+        "No credit card needed"
+      ],
+      "amenities": [
+        "Bedroom 1: 1 single bed  and  1 large double bed",
+        "Bedroom 2: 1 single bed  and  1 large double bed",
+        "Bedroom 3: 1 single bed  and  1 double bed",
+        "Bedroom 4: 1 double bed",
+        "Living room: 1 sofa bed",
+        "Free cancellation** before 14 September 2025 \n  * Pay the property before arrival \n  * Fully refundable during free cancellation \n  * **No credit card needed**\n\n\n###  Meals \nContinental breakfast included  Lunch costs ₹ 260 per person per night.  Dinner costs ₹ 450 per person per night.  Breakfast rated 5.0 - based on 2 reviews. \n###  Cancellation \n**Free cancellation** before 14 September 2025  You may cancel free of charge until 3 days before arrival. You will be charged 50% of the total price if you cancel in the 3 days before arrival. If you don't show up, you will be charged the total price of the reservation.\n###  Prepayment \n**Pay the property before arrival** You will be charged a prepayment of 50% of the total price after reservation. Parking  Self parking for one vehicle per room per stay.  All additional services are the responsibility of the property.  Any unused products and services included in the rate are non-refundable.  |  Select rooms 0  1 (₹ 18,302)   \nI'll reserve \n  * You won't be charged yet \n\n\n**Limited supply in Dwarka for your dates: 2 four-star resorts like this are already unavailable on our site",
+        "Breakfast included"
+      ],
+      "meals": {
+        "breakfast": "Breakfast included",
+        "lunch": "Lunch costs ₹ 260",
+        "dinner": "Dinner costs ₹ 450"
+      },
+      "cancellation": "Free cancellation** before 14 September 2025 \n  * Pay the property before arrival \n  * Fully refu",
+      "prepayment": "Pay the property before arrival"
+    }
+  ]
+}

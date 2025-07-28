@@ -1,0 +1,177 @@
+{
+    "hotel_name": "Goverdhan Greens Resort",
+    "rating": 3.6,
+    "rooms_available": 5,
+    "room_options": [
+        {
+            "room_name": "Deluxe Room with Balcony",
+            "room_type": "Room Only",
+            "price_per_night": 1884,
+            "taxes_and_fees": 460,
+            "total_price": 2344,
+            "extras": "Free cancellation",
+            "amenities": [
+                "Double Bed · 200 sq.ft · Balcony",
+                "Fridge",
+                "Sofa",
+                "Air conditioning",
+                "Towels",
+                "Fan",
+                "+ 4 more"
+            ]
+        },
+        {
+            "room_name": "Deluxe Room with Balcony",
+            "room_type": "Room with Breakfast",
+            "price_per_night": 2191,
+            "taxes_and_fees": 535,
+            "total_price": 2726,
+            "extras": "Free cancellation",
+            "amenities": [
+                "Double Bed · 200 sq.ft · Balcony",
+                "Fridge",
+                "Sofa",
+                "Air conditioning",
+                "Towels",
+                "Fan",
+                "+ 4 more"
+            ]
+        },
+        {
+            "room_name": "Super Deluxe Room",
+            "room_type": "Room Only",
+            "price_per_night": 1999,
+            "taxes_and_fees": 488,
+            "total_price": 2487,
+            "extras": "Free cancellation",
+            "amenities": [
+                "Double Bed · 200 sq.ft",
+                "Fridge",
+                "Sofa",
+                "TV",
+                "Air conditioning",
+                "Towels",
+                "+ 8 more"
+            ]
+        },
+        {
+            "room_name": "Super Deluxe Room",
+            "room_type": "Room with Breakfast",
+            "price_per_night": 2307,
+            "taxes_and_fees": 563,
+            "total_price": 2870,
+            "extras": "Free cancellation",
+            "amenities": [
+                "Double Bed · 200 sq.ft",
+                "Fridge",
+                "Sofa",
+                "TV",
+                "Air conditioning",
+                "Towels",
+                "+ 8 more"
+            ]
+        },
+        {
+            "room_name": "Super Deluxe Room with Balcony",
+            "room_type": "Room Only",
+            "price_per_night": 1999,
+            "taxes_and_fees": 488,
+            "total_price": 2487,
+            "extras": "Free cancellation",
+            "amenities": [
+                "Double Bed · 221 sq.ft · Balcony",
+                "Fridge",
+                "Sofa",
+                "TV",
+                "Air conditioning",
+                "Towels",
+                "+ 9 more"
+            ]
+        },
+        {
+            "room_name": "Super Deluxe Room with Balcony",
+            "room_type": "Room with Breakfast",
+            "price_per_night": 2307,
+            "taxes_and_fees": 563,
+            "total_price": 2870,
+            "extras": "Free cancellation",
+            "amenities": [
+                "Double Bed · 221 sq.ft · Balcony",
+                "Fridge",
+                "Sofa",
+                "TV",
+                "Air conditioning",
+                "Towels",
+                "+ 9 more"
+            ]
+        },
+        {
+            "room_name": "Superior Room",
+            "room_type": "Room Only",
+            "price_per_night": 2171,
+            "taxes_and_fees": 530,
+            "total_price": 2701,
+            "extras": "Free cancellation",
+            "amenities": [
+                "Double Bed · 288 sq.ft · Pool view",
+                "Fridge",
+                "Minibar",
+                "Dining table",
+                "Sofa",
+                "TV",
+                "+ 10 more"
+            ]
+        },
+        {
+            "room_name": "Superior Room",
+            "room_type": "Room with Breakfast",
+            "price_per_night": 2478,
+            "taxes_and_fees": 605,
+            "total_price": 3083,
+            "extras": "Free cancellation",
+            "amenities": [
+                "Double Bed · 288 sq.ft · Pool view",
+                "Fridge",
+                "Minibar",
+                "Dining table",
+                "Sofa",
+                "TV",
+                "+ 10 more"
+            ]
+        },
+        {
+            "room_name": "AC Family Deluxe Room",
+            "room_type": "Room with Breakfast",
+            "price_per_night": 3198,
+            "taxes_and_fees": 780,
+            "total_price": 3978,
+            "extras": "Free cancellation",
+            "amenities": [
+                "Double Bed · 272 sq.ft",
+                "Fridge",
+                "Dining table",
+                "Sofa",
+                "Blanket",
+                "TV",
+                "+ 11 more"
+            ]
+        },
+        {
+            "room_name": "AC Family Deluxe Room",
+            "room_type": "Room Only",
+            "price_per_night": 3813,
+            "taxes_and_fees": 930,
+            "total_price": 4743,
+            "extras": "Free cancellation",
+            "amenities": [
+                "Double Bed · 272 sq.ft",
+                "Fridge",
+                "Dining table",
+                "Sofa",
+                "Blanket",
+                "TV",
+                "+ 11 more"
+            ]
+        }
+    ]
+}
