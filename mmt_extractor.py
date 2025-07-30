@@ -20,7 +20,7 @@ def extract_hotel_data_from_markdown(md_path):
     current_sub_room = None
     current_block = []
 
-    # ✅ First Pass - Basic info
+    # First Pass - Basic info
     content = "".join(lines)
     hotel = re.search(r"#\s+([^\n]+)", content)
     if hotel:
@@ -34,7 +34,7 @@ def extract_hotel_data_from_markdown(md_path):
     if rooms:
         result["rooms_available"] = int(rooms.group(1))
 
-    # ✅ Line-by-line Parsing
+    #  Line-by-line Parsing
     for line in lines:
         line = line.strip()
 
@@ -86,10 +86,23 @@ def process_block(result, main_room, sub_room, block_lines):
         except:
             continue
 
-# ✅ Run & Save JSON
+#  Run & Save JSON
 data = extract_hotel_data_from_markdown("makemytrip_hotel.md")
+
+#  Mapping logic (post-processing)
+room_name_map = {
+    "Super Delux Balcony Room": "Super Deluxe Room with Balcony",
+    "Super Deluxe Rooms": "AC super deluxe",
+    "Superior Rooms": "Superior Room"
+}
+
+for room in data["room_options"]:
+    original_name = room["main_room_name"]
+    room["standard_name"] = room_name_map.get(original_name, None)
+
+#  Save JSON with standard_name
 with open("makemytrip_hotel.json", "w", encoding="utf-8") as f:
     json.dump(data, f, indent=4, ensure_ascii=False)
 
 print(json.dumps(data, indent=4, ensure_ascii=False))
-print("✅ JSON saved to makemytrip_hotel.json")
+print(" JSON with standard names saved to makemytrip_hotel.json")
