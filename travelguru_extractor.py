@@ -1,6 +1,24 @@
 import re
 import json
 
+# ✅ Room name mapping dictionary (based on keywords)
+room_name_mapping = {
+    "Super Deluxe Balcony - Double Occupancy": "Super Deluxe Balcony",
+    "Super Deluxe - Double Occupancy": "AC Super Deluxe",
+    "Deluxe Room With Balcony - Double Occupancy": "Deluxe Room With Balcony",
+    "Superior Room - Double Occupancy": "Superior Room",
+    "Family Deluxe Room": "Family room 4 -beds",
+    "First Floor Villa 2 Bedrooms": "First Floor Villa with balcony",
+    "Ground Floor Villa 2 BHK": "Ground Floor villa with kitchen",
+    "Full Villa 4 BHK": "Full Villa 4 BHK"
+}
+
+def map_room_name(raw_name):
+    for pattern, mapped in room_name_mapping.items():
+        if pattern.lower() in raw_name.lower():
+            return mapped
+    return raw_name  # fallback to original if no match
+
 def extract_travelguru_data(md_path):
     with open(md_path, "r", encoding="utf-8") as f:
         content = f.read()
@@ -32,7 +50,8 @@ def extract_travelguru_data(md_path):
             continue
 
         # ✅ Room Name (first line)
-        room_name = sec.split("\n")[0].strip()
+        raw_room_name = sec.split("\n")[0].strip()
+        room_name = map_room_name(raw_room_name)
 
         # ✅ Amenities (before Room Policy)
         amenities_match = re.search(r"Amenities\s+(.*?)Room Policy", sec, re.S)
@@ -59,17 +78,17 @@ def extract_travelguru_data(md_path):
                 extras.append("Non Refundable")
 
             result["room_options"].append({
-                "room_name": room_name,
+                "room_name": raw_room_name,
+                "mapped_room_name": room_name,
                 "plan": plan.strip(),
                 "price_per_night": price,
-                "taxes_and_fees": 0,  # Travelguru shows final amount inclusive
+                "taxes_and_fees": 0,
                 "total_price": price,
                 "extras": ", ".join(extras) if extras else "None",
                 "amenities": amenities
             })
 
     return result
-
 
 # ✅ Run & Save
 data = extract_travelguru_data("hotel_travelguru.md")
