@@ -1,5 +1,17 @@
 import json, re
 
+# Mapping dictionary
+ROOM_MAPPING = {
+    "Deluxe Double Room": "Deluxe room with balcony",
+    "Super Deluxe Room with Balcony": "Super Deluxe Room with Balcony",
+    "Deluxe King Room": "AC Super Deluxe",
+    "Superior Double Room": "Superior",
+    "Deluxe Family Room": "Family room 4 Beds",
+    "Two-Bedroom Villa": "1st floor Villa with balcony",
+    "Villa with Garden View": "ground floor villa with kitchen",
+    "Superior Villa": "full villa 4 bhk"
+}
+
 def parse_booking_markdown(file_path="booking_hotel.md"):
     with open(file_path, "r", encoding="utf-8") as f:
         content = f.read()
@@ -53,7 +65,6 @@ def parse_booking_markdown(file_path="booking_hotel.md"):
             bf = re.search(r"Breakfast\s*₹\s*\d+", section)
             if bf: amenities.append(bf.group())
 
-        # ✅ Meals
         meals = {
             "breakfast": "Breakfast included" if "Continental breakfast included" in section
                         else (re.search(r"Breakfast\s*₹\s*\d+", section).group() if re.search(r"Breakfast\s*₹\s*\d+", section) else None),
@@ -68,6 +79,7 @@ def parse_booking_markdown(file_path="booking_hotel.md"):
 
         hotel_data["room_options"].append({
             "room_type": room_type,
+            "standard_room_name": ROOM_MAPPING.get(room_type, room_type),  # mapping added
             "max_persons": max_persons,
             "price_per_night": price_per_night,
             "taxes_and_fees": taxes_and_fees,
