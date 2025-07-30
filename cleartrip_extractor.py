@@ -1,5 +1,14 @@
 import re, json
 
+# Room mapping dictionary
+ROOM_MAPPING = {
+    "Super Deluxe Room with Balcony": "Super Deluxe Room with Balcony",
+    "Super Deluxe Room": "AC super deluxe",
+    "Deluxe Room with Balcony": "Deluxe Room with Balcony",
+    "Superior Room": "Superior Room",
+    "AC Family Deluxe Room": "family room 4 beds"
+}
+
 def clean_text(text):
     return re.sub(r"!\[.*?\]\(.*?\)", "", text).strip()
 
@@ -59,8 +68,10 @@ def extract_travelguru_data(md_path):
                 p = int(price.replace(",", ""))
                 t = int(taxes.replace(",", ""))
                 extras = "Free cancellation" if "Free cancellation" in block else ""
+                standard_room_name = ROOM_MAPPING.get(room_name, room_name)
                 result["room_options"].append({
                     "room_name": room_name,
+                    "standard_room_name": standard_room_name,
                     "room_type": rtype.strip(),
                     "price_per_night": p,
                     "taxes_and_fees": t,
